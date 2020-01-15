@@ -113,6 +113,7 @@
     <Content Include="Controls1\RadioButtonList.cshtml" />
     <Content Include="Controls1\TextBoxes.cshtml" />
     <Content Include="Controls\RadioButtonList.cshtml" />
+    <Content Include="01-HOW TO Create a Visual Studio Razor Web Application.docx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
