@@ -1,0 +1,14 @@
+﻿<!--this will be the menu area-->
+<div class="navbar navbar-default navbar-fixed-top">
+    <!--a brand on the menu. this can be given an
+        anchor tag of href="~/index.cshtml" to go
+        to your home page-->
+    <div class="navbar-header">
+        <a class="navbar-brand" style="font-size:x-large"><strong>CPSC1517 Razor</strong></a>
+    </div>
+    <!--this area will hold the menu root items-->
+    <ul class="nav navbar-nav">
+        <li><a href="@Href("~/index.cshtml")">Home</a></li>
+        <li><a href="@Href("~/About.cshtml")">About</a></li>
+    </ul>
+</div>
