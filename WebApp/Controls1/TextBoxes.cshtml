@@ -38,26 +38,28 @@
 
     }
     <form id="theForm" action="" method="post">
-       <div class="row">
-           <div class="col-sm-6">
-               <label id="forLeftSide">Left Data:</label>&nbsp;&nbsp;
-               <input type="text" name="LeftSide" id="LeftSideId"
-                      value="@leftside" placeholder="enter some data" />&nbsp;&nbsp;
-               <button type="submit" name="formButton" value="left"
-                       class="btn btn-primary">
-                   Press Left
-               </button>
-           </div>
-           <div class="col-sm-6">
-               <label id="forRightSide">Right Data:</label>&nbsp;&nbsp;
-               <input type="number" name="RightSide" id="RightSideId"
-                      value="@rightside" placeholder="enter some data" />&nbsp;&nbsp;
-               <button type="submit" name="formButton" value="right"
-                       class="btn btn-primary">
-                   Press Right
-               </button>
-           </div>
-       </div>
+        <div class="row">
+            <!--with the grid system in bootstrap all divs are divided into 12 columns-->
+            <div class="col-sm-6">
+                <!--so col-sm-6 means take up 6 of the 12 columns or half the screen. sm means small screen-->
+                <label id="forLeftSide">Left Data:</label>&nbsp;&nbsp;
+                <input type="text" name="LeftSide" id="LeftSideId"
+                       value="@leftside" placeholder="enter some data" />&nbsp;&nbsp;
+                <button type="submit" name="formButton" value="left"
+                        class="btn btn-primary">
+                    Press Left
+                </button>
+            </div>
+            <div class="col-sm-6">
+                <label id="forRightSide">Right Data:</label>&nbsp;&nbsp;
+                <input type="number" name="RightSide" id="RightSideId"
+                       value="@rightside" placeholder="enter some data" />&nbsp;&nbsp;
+                <button type="submit" name="formButton" value="right"
+                        class="btn btn-primary">
+                    Press Right
+                </button>
+            </div>
+        </div>
     </form>
 </div>
 
