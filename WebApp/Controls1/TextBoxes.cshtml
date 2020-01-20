@@ -1,20 +1,16 @@
 ﻿@{
     //processing of this file is from the physical start of the file
     //to the physcial end of the file
-
-    // this is a comment in c#
     Page.Title = "Razor Forms";
-    //Layout = "~/_Layout.cshtml";
     Layout = "~/_LayoutMenu.cshtml";
-
     //capture the value that was entered into the textbox
     //to do this use Request.Form["controlname"]
-    //the value return from the textbox is a string
+    //the value returned from the textbox is a string
     //if the controlname does NOT exist, you will be given a null as the value
     var leftside = Request.Form["LeftSide"];
     var rightside = Request.Form["RightSide"];
-    //to determine which submit button was press, gather
-    //  the value from the button control that was pressed
+    //to determine which submit button was pressed, gather
+    //the value from the button control that was pressed
     //both submit buttons have the same value for their name= attribute
     var buttonpressed = Request.Form["formButton"];
 
